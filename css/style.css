@@ -1,0 +1,337 @@
+*,
+*::after,
+*::before {
+  box-sizing: content-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%;
+  color: white;
+}
+
+.inital-area {
+  background-image: url(../img/wp1.png);
+  height: 100vh;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Permanent Marker", cursive;
+  padding-top: 10px;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-area a {
+  color: inherit;
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-area a:not(:last-child) {
+  margin-right: 40px;
+}
+
+.main-heading-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Indie Flower", cursive;
+  font-size: 3.5rem;
+  font-weight: 400;
+  margin-top: 300px;
+}
+
+.btn-heading {
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.3rem;
+  outline: none;
+}
+
+.btn-heading:hover {
+  background-color: white;
+  transition: 0.2s;
+  color: black;
+}
+
+.info-area {
+  background-color: #b42b00;
+  min-height: 80vh;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  font-weight: 400;
+  padding-top: 150px;
+}
+
+.info-area h1 {
+  font-size: 4rem;
+  margin-bottom: 80px;
+}
+
+.info-area h2 {
+  font-size: 2rem;
+}
+
+.info-box-area {
+  display: flex;
+  font-size: 2rem;
+  margin-top: 10rem;
+  padding: 0 5rem;
+}
+
+.explore-area {
+  height: 80vh;
+  display: flex;
+}
+
+.left {
+  /* background-image: url(../img/rec10.png); */
+  background-color: black;
+  height: 100%;
+  width: 50vw;
+}
+
+.left h1 {
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  font-size: 3rem;
+  margin-top: 200px;
+}
+
+.left p {
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+  margin-top: 200px;
+  padding: 0 50px;
+}
+
+.right {
+  background-image: url(../img/rec8.png);
+  width: 50vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-bottom {
+  margin: 50px auto 0 auto;
+  display: block;
+}
+
+.wp2 {
+  background-image: url(../img/wp2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.about-heading {
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  font-size: 3rem;
+  margin-top: 10rem;
+  filter: drop-shadow(8px 8px 10px black);
+}
+
+.about-area {
+  height: 80vh;
+  background-color: #021d43;
+  padding: 200px 60px 0 60px;
+}
+
+.about-area p {
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+  font-size: 2.5rem;
+}
+
+.mb {
+  padding-bottom: 120px;
+}
+
+.image-moon1 {
+  width: 125px;
+  height: 125px;
+  position: absolute;
+}
+
+
+.wp3 {
+  background-image: url(../img/wp3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.category-heading {
+  font-family: "Indie Flower", cursive;
+  font-size: 3.5rem;
+  margin-left: 30vw;
+  margin-top: 25vh
+}
+
+.table-category {
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+  float: right;
+  margin-top: -15rem;
+  margin-right: 10rem;
+  color:black;
+  font-weight: 700;
+}
+
+.contos-area {
+  background-color: #44015E;
+  height: 80vh;
+}
+
+.contos-heading {
+  font-family: "Indie Flower", cursive;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.contos-info-area {
+  display: flex;
+  justify-content: center;
+  font-family: "Indie Flower", cursive;
+  margin-top: 8rem;
+
+}
+
+.contos-box {
+  min-width: 500px;
+  padding: 0 4rem;
+}
+
+.contos-box img {
+  float: left;
+  margin-right: 1.5rem;
+}
+
+.contos-box h3 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.contos-box span {
+  font-size: 2rem;
+}
+
+.contos-box p {
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.wp4 {
+  background-image: url(../img/wp4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 80vh;
+}
+
+.heading-contato {
+  text-align: center;
+  margin-top: 15rem;
+  font-family: "Indie Flower", cursive;
+  font-size: 3rem;
+}
+
+.contato-area {
+  height: 100vh;
+  background-color: #021D43;
+  display: flex;
+  justify-content: center;
+}
+
+.contato-form {
+  width: 600px;
+  padding-top: 8rem;
+  font-family: "Indie Flower", cursive;
+}
+
+.input  {
+
+  /* padding: 10px; */
+  box-shadow: inset -5px 5px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  border: none;
+  font-family: Indie Flower;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  outline: none;
+  color: #052B60;
+}
+
+.input1 {
+  width: 100%;
+}
+
+.input2 {
+  width: 50%;
+}
+
+.text {
+  font-size: 1.6rem;
+}
+
+.input::placeholder {
+  color:#021D43;
+}
+
+.first {
+  margin-bottom: 2rem;
+}
+
+.conteudo {
+  width: 100%;
+  resize: none;
+}
+
+
+.btn-submit {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.6) ;
+  border: none;
+  border-radius: 3px;
+}
+#form-errors {
+  background-color:rgba(255, 255, 255, 0.6) ;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+} 
+
+#form-errors a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #b42b00;
+  text-decoration: underline;
+}
