@@ -18,6 +18,7 @@
 </head>
 
 <body>
+    <a class="skip-main" href="#heading-contato">Skip to main content</a>
     <div class="wp4">
         <header class="header">
             <div class="logo-area">
@@ -33,34 +34,35 @@
             </nav>
         </header>
 
-        <h1 class="heading-contato">Fale Conosco</h1>
+        <h1 class="heading-contato" id="heading-contato">Fale Conosco</h1>
     </div>
 
     <div class="contato-area">
         <div class="contato-form">
             <div id="form-errors">
                 <a href="#nome">O nome não pode estar vazio! minimo 4 caracteres </a><br>
-                <a href="#email">O email não está em um formato valido! </a>  <br>
+                <a href="#email">O email não está em um formato valido! </a> <br>
                 <a href="#telefone">O telefone não está em um formato valido! </a><br>
                 <a href="#mensagem">Mensagem está vazia! </a>
-                 
+
             </div>
 
-            <form method="GET" onsubmit="showErrors(); return false" >
+            <form method="GET" onsubmit="showErrors(); return false">
                 <label for="nome"> Nome:</label>
-                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" class="input input1 first" aria-required="true" required><br>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" class="input input1 first"
+                    aria-required="true" required><br>
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email" class="input first input1" placeholder="Digite seu e-mail"
                     aria-required="true" required>
                 <label for="telefone">Telefone:</label>
-                <input type="tel" name="telefone" id="telefone" class="input first input1" placeholder="Digite seu número"
-                    aria-required="true" required><br>
+                <input type="tel" name="telefone" id="telefone" class="input first input1"
+                    placeholder="Digite seu número" aria-required="true" required><br>
                 <label for="mensagem"></label>
                 <textarea name="mensagem" id="mensagem" cols="30" class="conteudo input" rows="10"
                     placeholder="Digite a mensagem" aria-required="true" required></textarea>
-                    <button type="submit" class="btn-submit" >
-                        Enviar
-                    </button>
+                <button type="submit" class="btn-submit">
+                    Enviar
+                </button>
             </form>
         </div>
     </div>
